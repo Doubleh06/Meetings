@@ -4,12 +4,12 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>cn.vtyc</groupId>
-	<artifactId>ehs</artifactId>
+	<artifactId>meetings</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 
-	<name>ehs</name>
-	<description>EHS</description>
+	<name>meetings</name>
+	<description>Meetings</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
