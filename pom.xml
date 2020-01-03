@@ -220,9 +220,18 @@
 	<profiles>
 		<!-- 开发环境 -->
 		<profile>
-			<id>dev</id>
+			<id>winDev</id>
 			<properties>
-				<activatedProperties>dev</activatedProperties>
+				<activatedProperties>winDev</activatedProperties>
+			</properties>
+			<activation>
+				<activeByDefault>true</activeByDefault>
+			</activation>
+		</profile>
+		<profile>
+			<id>macDev</id>
+			<properties>
+				<activatedProperties>macDev</activatedProperties>
 			</properties>
 			<activation>
 				<activeByDefault>true</activeByDefault>
